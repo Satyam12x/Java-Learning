@@ -11,17 +11,15 @@
 
 // //1. Concatenation:
 
-// String firstName = "Satyam ";
-// String lastName = "Pandey";
-// String fullName = firstName + lastName;
-// System.out.println(fullName);
+String firstName = "Satyam ";
+String lastName = "Pandey";
+String fullName = firstName + lastName;
+System.out.println(fullName);
 
-//Expected output: Satyam Pandey
+//Expected output: Satyam Pandey 
 
-//2. 
-
-
-
+//There are so many methods that are applicable on strings, you guys can check them by typing '.' after the string name.
+//Code Snippet:
 import java.util.*;
 
 public class Lecture2 {
@@ -37,6 +35,15 @@ public class Lecture2 {
         int a = str.length();
         System.out.println(a);
 
-        //
+        //Get the character at any index:
+        String name = "Satyam";
+        name.charAt(0); //expected output = S
+
+        //Convert the string into upper/lower case:
+        String name2 = "Satyam";
+        name2 = name2.toUpperCase();
+        System.out.println(name2); //expected output = SATYAM
+        name2 = name2.toLowerCase();
+        System.out.println(name2); //expected output = satyam
     }
 }
