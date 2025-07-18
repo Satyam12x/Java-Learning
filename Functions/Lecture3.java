@@ -1,3 +1,23 @@
+/*
+Recursion : Recursion in Java is a programming technique where a method calls itself to solve a problem. This approach is effective when a problem can be broken down into smaller, similar subproblems. 
+
+Base Case: This is a condition that stops the recursion. It defines the simplest instance of the problem that can be solved directly without further recursive calls. Without a base case, a recursive method would lead to an infinite loop.
+
+Recursive Steps : This is where the method calls itself with a modified input, moving closer to the base case.
+
+
+# Advantages of Recursion:
+- Readability: For certain problems (like tree traversals or fractal generation), recursive solutions can be more intuitive and easier to understand than iterative ones.
+- Conciseness: Recursive code can often be more compact than its iterative counterpart.
+
+# Disadvantages of Recursion:
+- Performance Overhead:
+Each recursive call adds a new frame to the call stack, which can lead to increased memory usage and potential StackOverflowError for deep recursions.
+- Debugging Complexity:
+Tracing the execution flow of recursive methods can be more challenging than iterative loops.
+*/
+
+//Example 1: Factorial of a number: 
 import java.util.*;
 public class Factorial {
     public static int factorial(int n){
@@ -17,17 +37,17 @@ public class Factorial {
     }
 }
 
-
+//Example 2: Print the fibonacci series upto n terms:
 import java.util.*;
-public class Factorial {
-    public static int fibonacci(int n){
+public class fibonacci {
+    public static int Fibonacci(int n){
         if(n==1){
             return 1;
         }
         else if(n==0){
             return 0;
         }
-        return fibonacci(n-1)+fibonacci(n-2);
+        return Fibonacci(n-1)+Fibonacci(n-2);
     }
 
     public static void main(String[] args) {
@@ -43,6 +63,7 @@ public class Factorial {
     }
 }
 
+//Example 3: Print the table of a given number: 
 public class MultiplicationTable {
     public static void printTable(int number, int multiplier) {
         // Base case: stop after multiplier reaches 10
@@ -61,8 +82,3 @@ public class MultiplicationTable {
         printTable(5, 1); // Start with multiplier 1
     }
 }
-
-
-
-
-
