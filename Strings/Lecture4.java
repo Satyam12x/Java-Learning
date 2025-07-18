@@ -120,7 +120,46 @@ Write a Java program to check if a user-input string is a palindrome (reads the 
 Implement it using both String and StringBuilder.
 Hint: Use String’s equals() or StringBuilder’s reverse().
 
+Solution: 
+Ques: What is a Palindrome?
+ =     when an original string is equals to the reversed string then it   is said to be a palindrome string
 
+Example 1: Check the given string is palindrome or not:
+import java.util.*;
+
+*/
+
+public class Main{
+    public static boolean isPalin(String str){
+        str = str.toLowerCase(); //satyam
+        String reversed = "";
+        for(int i=str.length()-1; i>=0; i--){
+            reversed = reversed + str.charAt(i);
+            //1. "" = ""+m = "m"
+            //2. "m" = "m"+a = "ma"
+            //3. "ma" = "ma" + y = "may"
+            
+            //Similarly The string will be reversed
+        }
+        return str.equals(reversed);
+    }
+    
+    public static void main(String [] args){
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter a string: ");
+        String str = s.nextLine();
+        boolean res = isPalin(str);
+        
+        if(res){
+            System.out.println("Palindrome.");
+        }else{
+            System.out.print("Not a palindrome.");
+        }
+    }
+    
+}
+
+/*
 2. Replace Vowels:
 Write a Java program to replace all vowels in a user-input string with a ‘*’ character.
 Implement it using both String (e.g., replaceAll()) and StringBuilder (e.g., replace() or setCharAt()).
