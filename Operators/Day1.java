@@ -193,7 +193,7 @@ public class OperatorPractice {
 
 //Code Snippet Example:
 
-public class OperatorDemo {
+public class Day1 {
     public static void main(String[] args) {
 
         // 👉 1. Arithmetic Operators
