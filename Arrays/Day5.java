@@ -1,4 +1,4 @@
-//Practice questions on 2-D arrays
+//Practice questions on 2-D arrays:(Do it yourself)
 
 /*
 Ques 1. WAP to take a 2-d array input from the user and then print that array in a matrix manner.
