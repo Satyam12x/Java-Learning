@@ -28,7 +28,7 @@ Java-Learning/
 ├── Day-06_Functions/
 │   └── Lecture1.java
 ├── Day-07_Arrays/
-    └── Lecture1.java
+│   └── Lecture1.java
 ````
 
 Each `Day-X` folder contains:
@@ -41,118 +41,139 @@ Each `Day-X` folder contains:
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### 🔧 Step 1: Clone the Repository
 
-```bash
-git clone https://github.com/Satyam12x/Java-Learning.git
+
+* git clone https://github.com/Satyam12x/Java-Learning.git
 cd Java-Learning
 
 
-### 2. Set Up Your Environment
+---
 
- Install **Java JDK 8** or later
-* (Optional) Use an IDE: IntelliJ IDEA, Eclipse, or VS Code + Java extensions
+### 💻 Step 2: Install Prerequisites
 
-### 3. Compile and Run
+* Install **Java JDK 8** or higher
+  ➤ [Download Java](https://www.oracle.com/java/technologies/javase-downloads.html)
 
-From terminal:
+* (Optional) Install an IDE for easier development:
 
-cd Lesson1_HelloWorld
-javac HelloWorld.java
-java HelloWorld
+  * [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+  * [Eclipse](https://www.eclipse.org/)
+  * [VS Code](https://code.visualstudio.com/) + Java Extension Pack
+
+---
+
+### ▶️ Step 3: Compile and Run Java Files
+
+#### Option 1: Using Terminal
+
+Navigate to any lesson directory and run:
+
+javac Lecture1.java
+java Lecture1
 
 
-Or import the folder into your IDE and run `.java` files directly.
+#### Option 2: Using IDE
 
-### 4. Work Through Lessons in Order
+* Open the project/folder in your IDE
+* Locate the `.java` files
+* Run the file directly using the built-in run command
 
-Start with Lesson 1, then progress sequentially. After running each example, try modifying the code and completing the exercises.
+---
+
+### 📚 Step 4: Follow the Lessons in Sequence
+
+Start from `Day-01_Basics/` and continue lesson by lesson.
+
+* Read all comments carefully
+* Try modifying the code
+* Attempt the suggested exercises
+* Move on only when confident
 
 ---
 
 ## 📘 Lessons Overview
 
-| Lesson | Topic                                  |
-| ------ | -------------------------------------- |
-| 1      | HelloWorld & basic syntax              |
-| 2      | Control flow (if‑else, loops)          |
-| 3      | Advanced looping (while, do‑while)     |
-| 4      | Methods and parameter passing          |
-| 5      | Arrays & Strings                       |
-| 6      | OOP (Classes, Objects, Encapsulation)  |
-| 7      | Exception handling (try/catch, throws) |
-| 8      | File I/O (reading/writing files)       |
-| 9      | Threads & Concurrency                  |
-
-*(Future lessons planned: Generics, Collections, Networking)*
+| Day    | Topic                            |
+| ------ | -------------------------------- |
+| Day 01 | HelloWorld & basic syntax        |
+| Day 02 | Strings                          |
+| Day 03 | Operators                        |
+| Day 04 | Conditional Statements (if-else) |
+| Day 05 | Loops                            |
+| Day 06 | Functions/Methods                |
+| Day 07 | Arrays                           |
 
 ---
 
 ## 🎯 How to Get the Most Out of This
 
-1. **Follow sequence** — lessons build on previous ones
-2. **Read comments** — they explain *why*, not just *how*
-3. **Practice exercises** — change the code & test variations
-4. **Use Git** — commit your changes frequently
-5. **Explore issues/discussions** — ask questions & help others
-6. **Create mini-projects** — e.g. calculator app, simple games
+1. **Follow the order** — lessons are progressive
+2. **Don’t skip comments** — they explain the logic
+3. **Try edits** — break the code and fix it
+4. **Use Git** — track your progress
+5. **Ask and share** — use Issues/Discussions for questions
+6. **Build Projects** — e.g. calculators, games, file parsers
 
 ---
 
 ## 🧩 Who This is For
 
-* Complete beginners to programming
-* Students studying Java academically
-* Anyone preparing for Java coding interviews
-* Teachers looking for clear, example-based materials
+* 👶 Beginners starting with Java
+* 👨‍🎓 Students learning Java in school/college
+* 💼 Entry-level job seekers preparing for coding rounds
+* 👨‍🏫 Teachers/trainers seeking hands-on Java material
 
 ---
 
 ## 📚 Recommended Resources
 
-* [Oracle’s Official Java Documentation](https://docs.oracle.com/javase/)
-* [W3Schools Java Tutorial](https://www.w3schools.com/java/)
-* [GeeksforGeeks Java Guide](https://www.geeksforgeeks.org/java/)
+* [Oracle’s Official Java Docs](https://docs.oracle.com/javase/)
+* [W3Schools Java](https://www.w3schools.com/java/)
+* [GeeksforGeeks Java Programming](https://www.geeksforgeeks.org/java/)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! You can help by:
+You can contribute by:
 
-* 🆕 Adding new lessons or topics
-* 📝 Improving comments or adding exercises
-* 🐛 Fixing bugs or code issues
-* ℹ️ Suggesting enhancements via Issues or Discussions
+* 📘 Adding more lessons
+* 📝 Improving explanations
+* 🧪 Adding exercises
+* 🐞 Reporting and fixing bugs
 
-1. Fork this repo
-2. Make changes
-3. Submit a Pull Request for review
+### Steps:
+
+1. Fork the repo
+2. Create a new branch
+3. Commit your changes
+4. Submit a Pull Request
 
 ---
 
 ## 🆘 Need Help?
 
-* **Issues**: Report bugs or ask questions
-* **Discussions**: Share ideas or seek feedback
+* Open an [Issue](https://github.com/Satyam12x/Java-Learning/issues) to report problems
+* Start a [Discussion](https://github.com/Satyam12x/Java-Learning/discussions) to ask questions or suggest improvements
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. Feel free to use, adapt, and share it—just credit the author.
+This project is licensed under the **MIT License** — you are free to use, distribute, and modify it.
 
 ---
 
-## 📌 Quick Start Checklist
+## ✅ Quick Start Checklist
 
 * [ ] Clone the repo
-* [ ] Install JDK & your IDE
-* [ ] Run Lesson 1: HelloWorld
-* [ ] Work through lessons, running & modifying code
-* [ ] Ask questions and contribute through Issues
-* [ ] Build a mini project using what you've learned
+* [ ] Install Java JDK
+* [ ] Run `firstProgram.java`
+* [ ] Explore and modify other lessons
+* [ ] Contribute if you find ways to improve
+* [ ] Build your own Java project
 
 ---
 
-Happy learning! If you'd like badges, GIFs, or additional sections (like a quick quiz or roadmap), just let me know 😊
+Happy coding and keep learning Java! ☕🚀
