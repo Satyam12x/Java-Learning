@@ -3,7 +3,6 @@
 
 Java provides two main categories of data types:
 
-
 1. Primitive Data Types
 These are the most basic data types and are built into the Java language. There are 8 primitive data types in Java.
 
