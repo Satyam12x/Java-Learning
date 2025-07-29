@@ -129,3 +129,4 @@ public class CastingExample {
 
 // Conclusion
 // Java supports various data types that help in efficiently storing and managing data. Type casting allows converting one data type into another for flexibility and performance. While implicit casting is safe and automatic, explicit casting must be handled with care to avoid data loss.
+//use this repo as pratice
