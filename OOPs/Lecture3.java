@@ -79,3 +79,27 @@ public class Shop {
         System.out.println("Bill Amount: ₹" + b.calcTotal());
     }
 }
+
+/*
+4. A base class LibraryUser has user info. A child class FineCalculator takes daysLate and calculates fine as ₹2 per day. What will it show?
+*/
+
+class LibraryUser {
+    String user = "Priya";
+}
+
+class FineCalculator extends LibraryUser {
+    int daysLate = 6;
+
+    void showFine() {
+        int fine = daysLate * 2;
+        System.out.println(user + "'s Fine: ₹" + fine);
+    }
+}
+
+public class Library {
+    public static void main(String[] args) {
+        FineCalculator f = new FineCalculator();
+        f.showFine();
+    }
+}
