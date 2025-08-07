@@ -112,4 +112,13 @@ Clean separation of general and specific properties.
 
 Helpful in large systems like employee databases, e-commerce systems, etc.
 */
+/*
+- Access Specifiers : `public` and `protected` members can be inherited. `private` cannot.     
 
+- Constructors : Not inherited, but can be called using `super()` in subclass.               
+
+- Method Overriding : Subclass can override parent’s method to provide a specific implementation.
+
+- Polymorphism : Achieved through method overriding and dynamic dispatch.                   
+
+*/
