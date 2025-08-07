@@ -101,3 +101,15 @@ public class University {
         s.showCourse(); 
     }
 }
+
+
+/*
+# Explanation:
+
+We reused Person fields in Student.
+
+Clean separation of general and specific properties.
+
+Helpful in large systems like employee databases, e-commerce systems, etc.
+*/
+
