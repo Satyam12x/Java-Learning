@@ -39,3 +39,12 @@ Java supports the following types:
 - But it supports Multiple Inheritance using Interfaces.
 */
 
+/*
+ # Single Inheritance in Java – Explained
+
+- Concept:
+Single Inheritance involves one parent class and one child class.
+
+- Real-life Example:
+Let’s say we have a class Animal, and a class Dog that inherits from Animal.
+*/
