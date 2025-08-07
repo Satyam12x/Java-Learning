@@ -48,3 +48,26 @@ Single Inheritance involves one parent class and one child class.
 - Real-life Example:
 Let’s say we have a class Animal, and a class Dog that inherits from Animal.
 */
+
+//Code :
+class Animal {
+    void eat() {
+        System.out.println("This animal eats food.");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("The dog barks.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();  // Inherited method
+        d.bark(); // Own method
+    }
+}
+
+
