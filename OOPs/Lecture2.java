@@ -70,4 +70,34 @@ public class Main {
     }
 }
 
+# Practical Use Case of Inheritance: 
+- Let’s take a University System
 
+class Person {
+    String name;
+    int age;
+
+    void displayInfo() {
+        System.out.println("Name: " + name + ", Age: " + age);
+    }
+}
+
+class Student extends Person {
+    String course;
+
+    void showCourse() {
+        System.out.println(name + " is studying " + course);
+    }
+}
+
+public class University {
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.name = "Amit";
+        s.age = 20;
+        s.course = "Computer Science";
+
+        s.displayInfo(); 
+        s.showCourse(); 
+    }
+}
