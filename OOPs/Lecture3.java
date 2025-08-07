@@ -1,7 +1,7 @@
 //Practice Questions on Inheritance 
 
 /*
-A base class Student stores name and roll number. A derived class Result stores marks of 3 subjects and calculates the total. What will be the output?
+1. A base class Student stores name and roll number. A derived class Result stores marks of 3 subjects and calculates the total. What will be the output?
 */
 
 class Student {
