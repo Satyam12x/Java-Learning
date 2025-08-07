@@ -24,4 +24,18 @@ class Child extends Parent {
 }
 
 // # Keyword 'extends' is used for inheritance.
+/*
+# Types of Inheritance in Java
+
+Java supports the following types:
+
+1. Single Inheritance
+
+2. Multilevel Inheritance
+
+3. Hierarchical Inheritance
+
+- Java does NOT support Multiple Inheritance with classes to avoid ambiguity.
+- But it supports Multiple Inheritance using Interfaces.
+*/
 
