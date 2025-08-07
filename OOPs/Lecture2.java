@@ -14,3 +14,14 @@
 
 - Easier code maintenance and scalability
 */
+
+class Parent {
+    // fields and methods
+}
+
+class Child extends Parent {
+    // additional fields and methods
+}
+
+// # Keyword 'extends' is used for inheritance.
+
