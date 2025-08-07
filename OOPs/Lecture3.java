@@ -33,3 +33,26 @@ Roll: 101
 Name: Ankit  
 Total Marks: 255
 */
+
+/*
+2. Parent class Employee has basic salary = 40,000. Child class Manager adds bonus = 8,000. Calculate total salary.
+*/
+
+class Employee {
+    double basic = 40000;
+}
+
+class Manager extends Employee {
+    double bonus = 8000;
+
+    double totalSalary() {
+        return basic + bonus;
+    }
+}
+
+public class Office {
+    public static void main(String[] args) {
+        Manager m = new Manager();
+        System.out.println("Total Salary: " + m.totalSalary());
+    }
+}
