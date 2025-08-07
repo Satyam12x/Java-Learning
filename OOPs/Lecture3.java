@@ -56,3 +56,26 @@ public class Office {
         System.out.println("Total Salary: " + m.totalSalary());
     }
 }
+
+
+/*
+3. Base class Product has price and quantity. Child class Bill calculates total price. What's the output?
+*/
+
+class Product {
+    int price = 599;
+    int quantity = 3;
+}
+
+class Bill extends Product {
+    int calcTotal() {
+        return price * quantity;
+    }
+}
+
+public class Shop {
+    public static void main(String[] args) {
+        Bill b = new Bill();
+        System.out.println("Bill Amount: ₹" + b.calcTotal());
+    }
+}
